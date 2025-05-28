@@ -24,7 +24,7 @@ public class Main {
         estudianteDAO.insertar(nuevo);
         System.out.println("✅ Estudiante insertado exitosamente.");
 
-        // Mostrar todos los estudiantes
+     
         List<Estudiante> estudiantes = estudianteDAO.obtenerTodos();
         System.out.println("\nLista actualizada de estudiantes:");
         for (Estudiante e : estudiantes) {
